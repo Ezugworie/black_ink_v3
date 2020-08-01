@@ -104,25 +104,25 @@
  * ## colors
  * ------------------------------------------------------------------- */
 :root {
-
+        /* defult color ==> #d98908 */
     /* color-1(#d9083c)
      * color-2(#eb5e55)
      * color-3(#f2d0a4)
      */
-    --color-1: hsla(345, 93%, 44%, 1);
-    --color-2: hsla(4, 79%, 63%, 1);
-    --color-3: hsla(34, 75%, 80%, 1);
+    --color-1: rgb(217, 137, 8);
+    --color-2: rgb(235, 183, 86);
+    --color-3: rgb(242, 222, 166);
 
     /* theme color variations
      */
-    --color-1-lighter: hsla(345, 93%, 64%, 1);
-    --color-1-light  : hsla(345, 93%, 54%, 1);
-    --color-1-dark   : hsla(345, 93%, 34%, 1);
-    --color-1-darker : hsla(345, 93%, 24%, 1);
-    --color-2-lighter: hsla(4, 79%, 83%, 1);
-    --color-2-light  : hsla(4, 79%, 73%, 1);
-    --color-2-dark   : hsla(4, 79%, 53%, 1);
-    --color-2-darker : hsla(4, 79%, 43%, 1);
+    --color-1-lighter: rgb(249, 189, 78);
+    --color-1-light  : rgb(247, 178, 29);
+    --color-1-dark   : rgb(167, 124, 6);
+    --color-1-darker : rgb(118, 107, 4);
+    --color-2-lighter: rgb(246, 236, 177);
+    --color-2-light  : rgb(241, 225, 132);
+    --color-2-dark   : rgb(230, 186, 40);
+    --color-2-darker : rgb(196, 185, 23);
 
     /* feedback colors
      * color-error(#ffd1d2), color-success(#c8e675), 
@@ -189,6 +189,7 @@
     /* others
      */
     --color-body  : var(--color-1);
+    /* --color-bg    : #14171B; */
     --color-bg    : #14171B;
     --color-border: var(--color-gray-17);
 }
