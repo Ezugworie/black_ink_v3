@@ -1,3 +1,4 @@
+<?php
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 <head>
@@ -539,14 +540,16 @@
 
                 <h3 class="h-add-bottom">Contact Us</h3>
 
+                <?php echo((!empty($errorMessage)) ? $errorMessage : '') ?>
+
                 <form action="mailto.php" method="POST" id="contact-form">
                     <div>
                         <label for="name">Your Name</label>
-                        <input class="h-full-width" type="text" placeholder="Your Name" id="name">
+                        <input class="h-full-width" type="text" value="Iyke BlackInk" placeholder="Your Name" id="name">
                     </div>
                     <div>
                         <label for="email">Your email</label>
-                        <input class="h-full-width" type="email" placeholder="name@example.com" id="email">
+                        <input class="h-full-width" type="email" value="ik.ezugworie@gmail.com" placeholder="name@example.com" id="email">
                     </div>
                     <!-- <div>
                         <label for="sampleRecipientInput">Reason for contacting</label>
