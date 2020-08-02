@@ -3135,7 +3135,7 @@ input::-moz-focus-inner {
 
 .s-header__logo img {
     width: 68px;
-    height: 10px;
+    height: 50px;
     margin-bottom: 0;
 }
 
@@ -4042,7 +4042,7 @@ html.no-csstransitions .s-hero__content {
     content: "";
     display: block;
     width: 1px;
-    background-color: var(--color-1-darker);
+    background-color: var(--color-1);
     position: absolute;
     right: calc(50% + 1px);
     top: 0;

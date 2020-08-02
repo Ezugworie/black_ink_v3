@@ -22,6 +22,8 @@
     ================================================== -->
     <script src="js/modernizr.js"></script>
     <script defer src="js/fontawesome/all.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
+
 
     <!-- favicons
     ================================================== -->
@@ -52,7 +54,7 @@
 
         <div class="s-header__logo">
             <a href="index.html">
-                <img src="images/logo22.svg" width="120" height="120" alt="Homepage">
+                <img src="images/logo-white.svg" alt="Homepage">
             </a>
         </div>
 
@@ -145,7 +147,7 @@
 
             <div class="column large-6 w-900-stack s-about__intro-text">
                 <h1 class="display-1" data-aos="fade-up">
-                    BlackInk is a branding agency based in somewhere. We design thoughtful digital experiences and beautiful brand aesthetics.
+                    BlackInk is a branding agency based in Nigeria. We design thoughtful digital experiences and beautiful brand aesthetics.
                 </h1>
 
                 <p class="lead" data-aos="fade-up">
@@ -324,7 +326,7 @@
                         <div class="folio-item__cat">Branding</div>
                         <h4 class="folio-item__title">The Red Wheel</h4>
                     </div>
-                    <a href="https://www.behance.net/" title="Project Link" class="folio-item__project-link">Project Link</a>
+                    <a href="#" title="Project Link" class="folio-item__project-link">Project Link</a>
                     <div class="folio-item__caption">
                         <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
                     </div>
@@ -342,7 +344,7 @@
                         <div class="folio-item__cat">Frontend Design</div>
                         <h4 class="folio-item__title">Music Life</h4>
                     </div>
-                    <a href="https://www.behance.net/" title="Project Link" class="folio-item__project-link">Project Link</a>
+                    <a href="#" title="Project Link" class="folio-item__project-link">Project Link</a>
                     <div class="folio-item__caption">
                         <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
                     </div>
@@ -360,7 +362,7 @@
                         <div class="folio-item__cat">Branding</div>
                         <h4 class="folio-item__title">OI Logo</h4>
                     </div>
-                    <a href="https://www.behance.net/" title="Project Link" class="folio-item__project-link">Project Link</a>
+                    <a href="#" title="Project Link" class="folio-item__project-link">Project Link</a>
                     <div class="folio-item__caption">
                         <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
                     </div>
@@ -378,7 +380,7 @@
                         <div class="folio-item__cat">Frontend Design</div>
                         <h4 class="folio-item__title">Corrugated Sheets</h4>
                     </div>
-                    <a href="https://www.behance.net/" title="Project Link" class="folio-item__project-link">Project Link</a>
+                    <a href="#" title="Project Link" class="folio-item__project-link">Project Link</a>
                     <div class="folio-item__caption">
                         <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
                     </div>
@@ -396,7 +398,7 @@
                         <div class="folio-item__cat">Frontend Design</div>
                         <h4 class="folio-item__title">Wooocraft</h4>
                     </div>
-                    <a href="https://www.behance.net/" title="Project Link" class="folio-item__project-link">
+                    <a href="#" title="Project Link" class="folio-item__project-link">
                         Project Link
                     </a>
                     <div class="folio-item__caption">
@@ -416,7 +418,7 @@
                         <div class="folio-item__cat">Frontend Design</div>
                         <h4 class="folio-item__title">The Lamp</h4>
                     </div>
-                    <a href="https://www.behance.net/" title="Project Link" class="folio-item__project-link">Project Link</a>
+                    <a href="#" title="Project Link" class="folio-item__project-link">Project Link</a>
                     <div class="folio-item__caption">
                         <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
                     </div>
@@ -529,7 +531,82 @@
             </div> <!-- end column -->
 
         </div> <!-- end row -->
+    <!-- ========================================= CONTACT FORM ======================================================             -->
 
+        <div class="row">
+
+            <div class="column large-6 tab-12">
+
+                <h3 class="h-add-bottom">Contact Us</h3>
+
+                <form action="mailto.php" method="POST" id="contact-form">
+                    <div>
+                        <label for="name">Your Name</label>
+                        <input class="h-full-width" type="text" placeholder="Your Name" id="name">
+                    </div>
+                    <div>
+                        <label for="email">Your email</label>
+                        <input class="h-full-width" type="email" placeholder="name@example.com" id="email">
+                    </div>
+                    <!-- <div>
+                        <label for="sampleRecipientInput">Reason for contacting</label>
+                        <div class="ss-custom-select">
+                            <select class="h-full-width" id="sampleRecipientInput">
+                                <option value="Option 1">Questions</option>
+                                <option value="Option 2">Report</option>
+                                <option value="Option 3">Others</option>
+                            </select>
+                        </div>
+                    </div> -->
+                    
+                    <label for="message">Message</label>
+                    <textarea class="h-full-width" placeholder="Your message" id="message"></textarea>
+
+                    <label class="h-add-bottom">
+                        <input type="checkbox">
+                        <span class="label-text">Send a copy to yourself</span>
+                    </label>
+                
+                    <!-- <input class="btn--primary h-full-width" type="submit" value="Submit"> -->
+                    <input class="btn--primary h-full-width" type="submit" value="send">
+                </form>
+
+            </div>
+    <!-- ========================================= CONTACT FORM ======================================================             -->
+
+            <!-- <div class="column large-6 tab-12"> -->
+<!-- 
+                <h3>Alert Boxes</h3>
+
+                <br>
+                
+                <div class="alert-box alert-box--error hideit">
+                    <p>Error Message. Your Message Goes Here.</p>
+                    <i class="fa fa-times alert-box__close" aria-hidden="true"></i>
+                </div> -->
+                <!-- end error -->
+                        
+                <!-- <div class="alert-box alert-box--success hideit">
+                    <p>Success Message. Your Message Goes Here.</p>
+                    <i class="fa fa-times alert-box__close" aria-hidden="true"></i>
+                </div> -->
+                <!-- end success -->
+                        
+                <!-- <div class="alert-box alert-box--info hideit">
+                    <p>Info Message. Your Message Goes Here.</p>
+                    <i class="fa fa-times alert-box__close" aria-hidden="true"></i>
+                </div> -->
+                <!-- end info -->
+                        
+                <!-- <div class="alert-box alert-box--notice hideit">
+                    <p>Notice Message. Your Message Goes Here.</p>
+                    <i class="fa fa-times alert-box__close" aria-hidden="true"></i>
+                </div> -->
+                <!-- end notice -->
+            
+            <!-- </div> -->
+
+        </div> <!-- end row -->
 
     </div> <!-- end s-clients -->
 
@@ -655,6 +732,7 @@
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/mailto.js"></script>
 
 </body>
 
