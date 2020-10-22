@@ -4916,6 +4916,8 @@ html.no-csstransitions .s-hero__content {
     padding-left: 8.4rem;
     text-align: left;
     position: relative;
+    width: -webkit-fill-available;
+    margin-left: auto;
 }
 
 .testimonial-slider__author .team {
