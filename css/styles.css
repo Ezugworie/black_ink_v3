@@ -4913,7 +4913,7 @@ html.no-csstransitions .s-hero__content {
     display: inline-block;
     min-height: 7.2rem;
     margin-top: var(--vspace-1);
-    padding-left: 8.4rem;
+    /* padding-left: 8.4rem; */
     text-align: left;
     position: relative;
     width: -webkit-fill-available;
