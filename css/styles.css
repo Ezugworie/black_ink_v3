@@ -189,8 +189,10 @@
     /* others
      */
     --color-body: var(--color-1);
-    /* --color-bg    : #14171B; */
-    --color-bg: #14171B;
+    --color-bg    : #14171B;
+    --color-bg-about: rgb(248, 244, 220);
+    --color-bg-services: rgb(246, 236, 177);
+    --color-bg-team: rgb(248, 244, 220);
     --color-border: var(--color-gray-17);
 }
 
@@ -1767,7 +1769,8 @@ h6,
     font-family: var(--font-2);
     font-weight: 500;
     font-style: normal;
-    color: var(--color-text-dark);
+    /* color: var(--color-text-dark); */
+    color: var(--color-text);
     -webkit-font-variant-ligatures: common-ligatures;
     font-variant-ligatures: common-ligatures;
     text-rendering: optimizeLegibility;
@@ -4317,7 +4320,7 @@ html.no-csstransitions .s-hero__content {
  *
  * ------------------------------------------------------------------- */
 .s-about {
-    background-color: var(--color-bg);
+    background-color: var(--color-bg-about);
     padding-top: calc(7 * var(--space));
     padding-bottom: 0;
     position: relative;
@@ -4488,7 +4491,7 @@ html.no-csstransitions .s-hero__content {
  *
  * ------------------------------------------------------------------- */
 .s-services {
-    background-color: var(--color-bg);
+    background-color: var(--color-bg-services);
     padding-top: calc(6 * var(--space));
     padding-bottom: var(--vspace-2);
 }
@@ -4805,7 +4808,7 @@ html.no-csstransitions .s-hero__content {
 }
 
 .s-clients-2 {
-    background-color: var(--color-bg);
+    background-color: var(--color-bg-team);
     padding-top: var(--vspace-3);
     padding-bottom: var(--vspace-4);
     position: relative;
